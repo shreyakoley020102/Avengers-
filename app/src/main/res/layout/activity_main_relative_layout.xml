@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/txtLayoutHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:textSize="30sp"
+        android:padding="25dp"
+        android:layout_alignParentTop="true"
+        android:textStyle="bold"
+        android:textColor="#9c27b0"
+        android:text="My First App"/>
+
+    <TextView
+        android:id="@+id/txtLayoutSubHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:layout_below="@id/txtLayoutHeader"
+        android:textColor="#2196f3"
+        android:padding="5dp"
+        android:textStyle="italic"
+        android:text="Hey! I am shreya. Hope you like my very 1st app"/>
+
+    <ImageView
+        android:id="@+id/imgTonyStark"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_margin="25dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/tony_stark_new"/>
+
+    <Button
+        android:id="@+id/btnClickHere"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="I am RDJ"
+        android:background="#d50000"
+        android:layout_alignParentBottom="true"
+        android:textColor="#ffd600"
+        android:textStyle="bold"
+        android:textSize="20sp"/>
+
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtLayoutSubHeader"
+        android:hint="My Best Film"
+        android:layout_margin="20dp"
+        android:inputType="text"/>
+</RelativeLayout>
